@@ -1,0 +1,444 @@
+@charset "utf-8";
+
+.hambuger {
+    width: 40px;
+    display: none;
+    margin-top: 14px;
+}
+
+.hambuger span {
+    display: block;
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+.hambuger span+span {
+    margin-top: 6px;
+}
+
+.mobile-nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 69px;
+    background-color: white;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 5px 10px rgb(122, 122, 122);
+}
+
+.mobile-nav li {
+    line-height: 40px;
+}
+
+.moblie-main-text h4 {
+    width: 100px;
+}
+
+.moblie-pickme {
+    display: none;
+}
+
+@media screen and (max-width: 698px) {
+
+
+    .pc-nav {
+        display: none;
+    }
+
+    .hambuger {
+        display: block;
+    }
+
+    .inst-works {
+
+        margin: 0 auto;
+
+    }
+
+    .inst {
+        max-width: 89%;
+        height: 100vh;
+    }
+
+    .inst hr {
+        display: none;
+    }
+
+    .category-inst {
+
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .me-main img {
+        width: 300px;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .contact img {
+        width: 173px;
+    }
+
+    .contact-flex {
+        height: 198px;
+    }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .inner {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .works-bar {
+        width: 70%;
+    }
+
+    .contact-flex {
+        display: none;
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .moblie-contact {
+        display: block;
+    }
+
+    .me-main img {
+        display: none;
+    }
+
+    .me-title {
+        display: none;
+    }
+
+    .moblie-main {
+        display: flex;
+        margin-top: 28px;
+    }
+
+    .pick-me {
+        height: 60vh;
+    }
+
+    .contact {
+        width: 65%;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .big-profile.on {
+        width: 24%;
+    }
+
+    .profile-2 {
+        display: none;
+    }
+
+    .works-profile img {
+        width: 163px;
+    }
+
+    .works-profile {
+        width: 70%;
+    }
+
+    .works-video {
+        padding: 20px 0;
+        width: 73%;
+        margin: 0 auto;
+    }
+
+    .works-OB {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .works-video-text {
+        width: 76%;
+        margin: 0 auto;
+    }
+
+    .inst {
+        width: 91%;
+    }
+
+    .onst-works {
+        width: 85%;
+    }
+
+    .inst-pt {
+        /* width: 1000%; */
+        /* height: 1000%; */
+        width: 184px;
+        height: 200px;
+    }
+
+    .inst-works {
+        width: 85%;
+    }
+
+    .inst-pt2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .moblie-pickme {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 863px) {
+    .pc-nav {
+        display: none;
+    }
+
+    .hambuger {
+        display: block;
+    }
+
+    .inst-works {
+
+        margin: 0 auto;
+
+    }
+
+    .inst hr {
+        display: none;
+    }
+
+    .category-inst {
+
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .inst {
+        width: 91%;
+    }
+
+    .me-main img {
+        width: 300px;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .contact img {
+        width: 173px;
+    }
+
+    .contact-flex {
+        height: 198px;
+    }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .background {
+        display: none;
+    }
+
+    .inner {
+        display: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .works-bar {
+        width: 70%;
+    }
+
+    .contact-flex {
+        display: none;
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .moblie-contact {
+        display: block;
+    }
+
+    .me-main img {
+        display: none;
+    }
+
+    .me-title {
+        display: none;
+    }
+
+    .moblie-main {
+        display: flex;
+        margin-top: 28px;
+    }
+
+    .pick-me {
+        height: 60vh;
+    }
+
+    .contact {
+        width: 65%;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .big-profile.on {
+        max-width: 100%;
+        width: 27%;
+    }
+
+    .profile-2 {
+        display: none;
+    }
+
+    .works-profile img {
+        width: 163px;
+    }
+
+    .works-profile {
+        width: 70%;
+    }
+
+    .works-video {
+        padding: 20px 0;
+        width: 73%;
+        margin: 0 auto;
+    }
+
+    .works-OB {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .flex {
+        display: block;
+    }
+
+    .works-video-text {
+        width: 76%;
+        margin: 0 auto;
+    }
+
+    .inst {
+        width: 90%;
+        height: 114vh;
+    }
+
+    .onst-works {
+        width: 85%;
+    }
+
+    .inst-pt {
+        width: 200px;
+        height: 200px;
+    }
+
+    .inst-works {
+        width: 80%;
+    }
+
+    .inst-pt2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .moblie-pickme {
+        display: block;
+    }
+
+    .popup .txt {
+        width: 59%;
+        height: 73%;
+    }
+
+    .popup.on {
+        display: grid;
+    }
+    .tabitem-inst{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 607px) {
+    .big-profile.on {
+        width: 9%;
+    }
+
+    .works-video {
+        padding: 20px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .inst-pt {
+        width: 170px;
+        height: 170px;
+    }
+
+    .tabitem-inst {
+        width: 5%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .inst .inst-top .inst-propile{
+        display: block
+    }
+    .category-inst {
+        width: 105%;
+    }
+    .inst-pt {
+        width: 112px;
+        height: 122px;
+    }
+    .inst-pt2 {
+        width: 112px;
+        height: 112px;
+    }
+    .mobile-text{
+    width: 111%;
+    max-width: 100%;
+    font-size: 11px;
+    }
+    .works-profile img{
+        width: 42%;
+        height: 42%;
+    }
+    .works-text h4{
+        font-size: 10px;
+    }
+    .works-text h3{
+        font-size: 10px;
+    }
+}
